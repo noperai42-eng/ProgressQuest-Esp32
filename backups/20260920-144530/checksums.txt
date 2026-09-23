@@ -1,0 +1,3 @@
+bytes: 16777216
+sha256: ce0e34c65f67da210cfad259f2f9e71d8b65cf079eaff39b7dc800eca3c2c3e7
+matches_waveshare_factory_260805: False

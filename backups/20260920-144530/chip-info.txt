@@ -1,0 +1,96 @@
+=== esptool version ===
+esptool v5.4.0
+5.4.0
+
+=== chip-id ===
+esptool v5.4.0
+Serial port /dev/cu.usbmodem1101:
+Connecting...
+[1A[2K[1A[2KConnected to ESP32-S3 on /dev/cu.usbmodem1101:
+Chip type:          ESP32-S3 (QFN56) (revision v0.2)
+Features:           Wi-Fi, BT 5 (LE), Dual Core + LP Core, 240MHz, Embedded PSRAM 8MB (AP_3v3)
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                redacted
+
+Uploading stub flasher...
+Running stub flasher...
+[1A[2K[1A[2KStub flasher running.
+
+MAC:                redacted
+
+Staying in bootloader.
+
+=== read-mac ===
+esptool v5.4.0
+Serial port /dev/cu.usbmodem1101:
+Connecting...
+[1A[2K[1A[2KNOTE: Pre-connection option "no-reset" was selected. Connection may fail if the chip is not in bootloader or flasher stub mode.
+Connected to ESP32-S3 on /dev/cu.usbmodem1101:
+Chip type:          ESP32-S3 (QFN56) (revision v0.2)
+Features:           Wi-Fi, BT 5 (LE), Dual Core + LP Core, 240MHz, Embedded PSRAM 8MB (AP_3v3)
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                redacted
+
+Stub flasher is already running. No upload is necessary.
+
+MAC:                redacted
+
+Staying in bootloader.
+
+=== flash-id ===
+esptool v5.4.0
+Serial port /dev/cu.usbmodem1101:
+Connecting...
+[1A[2K[1A[2KNOTE: Pre-connection option "no-reset" was selected. Connection may fail if the chip is not in bootloader or flasher stub mode.
+Connected to ESP32-S3 on /dev/cu.usbmodem1101:
+Chip type:          ESP32-S3 (QFN56) (revision v0.2)
+Features:           Wi-Fi, BT 5 (LE), Dual Core + LP Core, 240MHz, Embedded PSRAM 8MB (AP_3v3)
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                redacted
+
+Stub flasher is already running. No upload is necessary.
+
+Flash Memory Information:
+=========================
+Manufacturer: 20
+Device: 4018
+Detected flash size: 16MB
+Flash type set in eFuse: quad (4 data lines)
+Flash voltage set by eFuse: 3.3V
+
+Staying in bootloader.
+
+=== get-security-info ===
+esptool v5.4.0
+Serial port /dev/cu.usbmodem1101:
+Connecting...
+[1A[2K[1A[2KNOTE: Pre-connection option "no-reset" was selected. Connection may fail if the chip is not in bootloader or flasher stub mode.
+Connected to ESP32-S3 on /dev/cu.usbmodem1101:
+Chip type:          ESP32-S3 (QFN56) (revision v0.2)
+Features:           Wi-Fi, BT 5 (LE), Dual Core + LP Core, 240MHz, Embedded PSRAM 8MB (AP_3v3)
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                redacted
+
+Stub flasher is already running. No upload is necessary.
+
+Security Information:
+=====================
+Flags: 0x00000000 (0b0)
+Key Purposes: (0, 0, 0, 0, 0, 0, 12)
+  BLOCK_KEY0 - USER/EMPTY
+  BLOCK_KEY1 - USER/EMPTY
+  BLOCK_KEY2 - USER/EMPTY
+  BLOCK_KEY3 - USER/EMPTY
+  BLOCK_KEY4 - USER/EMPTY
+  BLOCK_KEY5 - USER/EMPTY
+Chip ID: 9
+API Version: 0
+Secure Boot: Disabled
+Flash Encryption: Disabled
+SPI Boot Crypt Count (SPI_BOOT_CRYPT_CNT): 0x0
+
+Staying in bootloader.

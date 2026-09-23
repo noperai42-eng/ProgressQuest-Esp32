@@ -1,0 +1,105 @@
+{
+  "bytes": 16777216,
+  "sha256": "ce0e34c65f67da210cfad259f2f9e71d8b65cf079eaff39b7dc800eca3c2c3e7",
+  "matches_waveshare_factory_260805": false,
+  "official_factory_sha256_260805": "2b7e01ff1f37027385a3820e006f945464cfcee2a05954b3239cf75f250080b6",
+  "mac": "redacted",
+  "chip": "ESP32-S3 (QFN56) rev v0.2",
+  "flash_size": "16MB",
+  "psram": "8MB",
+  "secure_boot": false,
+  "flash_encryption": false,
+  "partition_table_offset": "0x8000",
+  "partition_md5": "1fcb39d1a451c24984eb9261cca128b7",
+  "partitions": [
+    {
+      "name": "nvsfactory",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 2,
+      "offset": "0x9000",
+      "size": "0x32000",
+      "encrypted": false,
+      "size_bytes": 204800,
+      "sha256": "bde1ad06f099691704c1fee05bc1bda810539d8cb1aefd5ea6fcdf77b4a1be0f"
+    },
+    {
+      "name": "nvs",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 2,
+      "offset": "0x3b000",
+      "size": "0xd2000",
+      "encrypted": false,
+      "size_bytes": 860160,
+      "sha256": "d6570fa298b985f524be3fd5287462830fd8477fef6c4ff011e6d50a0b5edd72"
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 0,
+      "offset": "0x10d000",
+      "size": "0x2000",
+      "encrypted": false,
+      "size_bytes": 8192,
+      "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+    },
+    {
+      "name": "phy_init",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 1,
+      "offset": "0x10f000",
+      "size": "0x1000",
+      "encrypted": false,
+      "size_bytes": 4096,
+      "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+    },
+    {
+      "name": "factory",
+      "type": "app",
+      "type_id": 0,
+      "subtype": 0,
+      "offset": "0x110000",
+      "size": "0x580000",
+      "encrypted": false,
+      "size_bytes": 5767168,
+      "sha256": "3698fc6d48ac30d1ccec518cd1cae931764647e6395afbc1182cb4371890fd40"
+    },
+    {
+      "name": "ota_0",
+      "type": "app",
+      "type_id": 0,
+      "subtype": 16,
+      "offset": "0x690000",
+      "size": "0x300000",
+      "encrypted": false,
+      "size_bytes": 3145728,
+      "sha256": "9fc8c19e8188d7da5e9e618ff1be7f3e518db3a62ec4d95cf8362b3c5f3075c1"
+    },
+    {
+      "name": "assets",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 130,
+      "offset": "0x990000",
+      "size": "0x300000",
+      "encrypted": false,
+      "size_bytes": 3145728,
+      "sha256": "3428cdcd4be8d56bc1050d2422373efe4d0739c7ae7426d5c928190bed2b12a9"
+    },
+    {
+      "name": "storage",
+      "type": "data",
+      "type_id": 1,
+      "subtype": 130,
+      "offset": "0xc90000",
+      "size": "0x370000",
+      "encrypted": false,
+      "size_bytes": 3604480,
+      "sha256": "2575474f06ffa3e2c825ca97f2a087388287a86ad13e73226a4c371bf7f58809"
+    }
+  ],
+  "bootloader_region_sha256": "bece0b7badc3a8e77dfef3de02994485fc82daff537f76711c300a3a1927bfd4"
+}

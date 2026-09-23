@@ -1,0 +1,28 @@
+# Tooling
+tools/venv/
+vendor/pq-cli/
+.venv/
+__pycache__/
+*.pyc
+
+# Large firmware artifacts (keep checksums and notes)
+backups/**/*.bin
+backups/**/*.elf
+*.bin
+!firmware/.gitkeep
+
+# ESP-IDF / PlatformIO build trees
+build/
+device/build/
+device/sdkconfig
+device/sdkconfig.old
+device/managed_components/
+device/dependencies.lock
+managed_components/
+.pio/
+sdkconfig.old
+sdkconfig.defaults.old
+dependencies.lock
+
+# macOS
+.DS_Store
