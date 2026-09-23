@@ -2,6 +2,17 @@
 
 Survey date: 2026-09-20. Scope is this exact board (SKU 31261, plus enclosure 31262 and GNSS 31264) and firmware that names it. Near-miss boards are listed so they are not treated as drop-in ports.
 
+## Game lineage
+
+ProgressQuest Esp32 is an original idle RPG. The loop (character, auto-fight, loot, encumbrance, market, quests, plot acts) follows Progress Quest. Names, races, and spell lists in this tree are not copied from it.
+
+| Work | Author | License | Where |
+| --- | --- | --- | --- |
+| Progress Quest | Eric Fredricksen | MIT. Site text is Copyright (c) 2002–2004. The Delphi `pq6` tree's `dist/license.txt` is "Progress Quest version 6.4", Copyright (c) 2022. | [progressquest.com](https://progressquest.com/), [license.txt](http://progressquest.com/license.txt), source [bitbucket.org/grumdrig/pq](https://bitbucket.org/grumdrig/pq) |
+| pq-cli | Marcin Kurczewski | MIT, Copyright (c) 2018 | [github.com/rr-/pq-cli](https://github.com/rr-/pq-cli). Command-line reimplementation. Local reference only (`vendor/pq-cli`); not redistributed here. |
+
+See also `NOTICE` and `LICENSE`.
+
 ## 1. The device
 
 Waveshare’s own docs and hardware reference describe a round 1.75-inch 466×466 capacitive AMOLED on an ESP32-S3R8 with 8 MB PSRAM and 16 MB flash. The panel is a CO5300 over QSPI; touch is a CST9217 on I2C; power is AXP2101; motion is QMI8658; time is PCF85063; audio is ES8311 + ES7210; storage is 1-bit SDMMC. SKUs:

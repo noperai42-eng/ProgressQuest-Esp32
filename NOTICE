@@ -1,0 +1,21 @@
+ProgressQuest Esp32 is original code (the firmware and desk sim are named Tami).
+It is not a copy of Progress Quest's races, word lists, or spell names.
+
+This project is licensed under the MIT License. See LICENSE.
+
+Prior art for the idle-RPG idea and loop:
+
+Progress Quest
+  Copyright (c) 2002-2004 Eric Fredricksen
+  Copyright (c) 2022 Eric Fredricksen (version 6.4, dist/license.txt)
+  https://progressquest.com/
+  https://progressquest.com/license.txt
+  Source release: https://bitbucket.org/grumdrig/pq
+  Licensed under the MIT License.
+
+pq-cli
+  Copyright (c) 2018 Marcin Kurczewski
+  https://github.com/rr-/pq-cli
+  Licensed under the MIT License.
+  A command-line reimplementation of Progress Quest. A local checkout may
+  exist at vendor/pq-cli for reference. It is not part of this repository.

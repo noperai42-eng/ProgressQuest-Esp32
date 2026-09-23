@@ -76,4 +76,10 @@ Take a new dump with `./scripts/backup-flash.sh`.
 
 ## Prior art
 
-This exact board already has a Tamagotchi-class firmware ([TamaPoke](https://github.com/socquique/TamaPoke)), a production LVGL OS ([PrintSphere](https://github.com/cptkirki/PrintSphere)), and first-party Xiaozhi/Brookesia. Notes and citations: [`docs/prior-art.md`](docs/prior-art.md).
+The idle loop follows [Progress Quest](https://progressquest.com/) by Eric Fredricksen (MIT, [license.txt](http://progressquest.com/license.txt); Delphi source [bitbucket.org/grumdrig/pq](https://bitbucket.org/grumdrig/pq)) and the later CLI port [pq-cli](https://github.com/rr-/pq-cli) by Marcin Kurczewski (MIT, 2018). This tree does not copy their joke races or word lists. Citations: [`NOTICE`](NOTICE), [`docs/prior-art.md`](docs/prior-art.md).
+
+This exact board already has a Tamagotchi-class firmware ([TamaPoke](https://github.com/socquique/TamaPoke)), a production LVGL OS ([PrintSphere](https://github.com/cptkirki/PrintSphere)), and first-party Xiaozhi/Brookesia.
+
+## License
+
+[MIT](LICENSE). Copyright (c) 2026 noperai42-eng.
